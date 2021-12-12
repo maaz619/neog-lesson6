@@ -22,3 +22,13 @@
   outline: none !important;
   box-shadow: 0 0 5px 1px  rgb(65, 214, 255);
 }
+ul{
+  padding: 0;
+  list-style: none;
+}
+li{
+  cursor: pointer;
+  display: inline;
+  padding: 1rem;
+  user-select: none;
+}
