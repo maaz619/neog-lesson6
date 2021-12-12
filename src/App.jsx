@@ -70,7 +70,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <input onChange={(e) => { emojiHandler(e) }} type="text" className="input" />
-        <h1 onChange={(e) => { emojiHandler(e) }}>{emoji === "" ? setEmoji("Please type an emoji") : emoji}</h1>
+        <h3 onChange={(e) => { emojiHandler(e) }}>{emoji === "" ? setEmoji("Please type an emoji") : emoji}</h3>
         <section>
           {
             <ul>
